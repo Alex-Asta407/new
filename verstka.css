@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap' );
+
+.courses__container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.courses__block{
+   border:solid black 2px;
+   padding: 20px;
+   line-height: 1.5rem;
+}
+.courses__block .courses__content img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.courses__block .courses__buttons{
+   margin-top: 45px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.courses__block .courses__content h1{
+    font-size: 28px;
+    font-weight: normal;
+    font-family: roboto ;
+}
+
+.courses__block .courses__buttons button{
+    height: 30px;
+    width: 70px;
+    background-color: #26a69a;
+    border: none;
+    border-radius: 4px;
+}
